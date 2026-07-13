@@ -15,17 +15,17 @@ This repository stores a series of comparative machine learning experiments, inc
 - Optimized variants1: PINN with Adam optimizer
 - Optimized variants2: PINN with AdamW+Gradients Clipping +cosine annealing+smoothing
 ## Repository Folder Structure
-├── notebooks/
-│ ├── kaggle-experiments/ # All raw notebooks exported from Kaggle
-│ ├── tabular-imbalance/ # Tiny imbalanced dataset ML comparison codes
-│ └── pinn-optimization/ # PINN optimizer & regularization contrast experiments
-├── src/ # Reusable model functions, metrics, PDE residual tools
-├── configs/ # Hyperparameter yaml configs for each experiment group
-├── scripts/ # Standalone training & evaluation scripts
-├── .gitignore # Predefined filter for cache, datasets and model weights
-├── LICENSE # MIT open-source license
-├── requirements.txt # Full Python environment dependencies
-└── README.md
+```├── notebooks/
+   │ ├── kaggle-experiments/ # All raw notebooks exported from Kaggle
+   │ ├── tabular-imbalance/ # Tiny imbalanced dataset ML comparison codes
+   │ └── pinn-optimization/ # PINN optimizer & regularization contrast experiments
+   ├── src/ # Reusable model functions, metrics, PDE residual tools
+   ├── configs/ # Hyperparameter yaml configs for each experiment group
+   ├── scripts/ # Standalone training & evaluation scripts
+   ├── .gitignore # Predefined filter for cache, datasets and model weights
+   ├── LICENSE # MIT open-source license
+   ├── requirements.txt # Full Python environment dependencies
+   └── README.md```
 
 ## Environment Setup
 ```bash
