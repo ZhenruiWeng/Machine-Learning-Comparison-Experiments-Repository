@@ -27,10 +27,3 @@ This repository stores a series of comparative machine learning experiments, inc
    ├── requirements.txt # Full Python environment dependencies
    └── README.md
 
-
-#### 2. Environment Setup 完整替换文本
-```markdown
-## Environment Setup
-```bash
-# Install all required packages
-pip install -r requirements.txt
