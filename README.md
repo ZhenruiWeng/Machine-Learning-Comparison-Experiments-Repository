@@ -25,9 +25,9 @@ This repository stores a series of comparative machine learning experiments, inc
    ├── .gitignore # Predefined filter for cache, datasets and model weights
    ├── LICENSE # MIT open-source license
    ├── requirements.txt # Full Python environment dependencies
-   └── README.md```
+   └── README.md
 
-## Environment Setup
+#### Environment Setup
 ```bash
 # Install all required packages
 pip install -r requirements.txt
